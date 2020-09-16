@@ -5,7 +5,7 @@
 	<groupId>com.mt</groupId>
 	<artifactId>maven-web-application</artifactId>
 	<packaging>war</packaging>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.2</version>
 	
 	<name>maven-web-application</name>
 
@@ -21,7 +21,7 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http://15.206.89.136:9000/</sonar.host.url>
+		<sonar.host.url>http://15.206.127.63:9000/</sonar.host.url>
                 <sonar.login>b7c8c9ea9b54ca9ec38adba4fc5800cd7a932331</sonar.login>
 		 <!--
                 <sonar.login>admin</sonar.login>
@@ -101,13 +101,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>walmart-release</name>
-	      <url>http://3.7.46.98:8081/repository/walmart-release/</url>
+	      <url>http://15.206.211.11:8081/repository/walmart-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>walmart-snapshot</name>
-	      <url>http://3.7.46.98:8081/repository/walmart-snapshot/</url>
+	      <url>http://15.206.211.11:8081/repository/walmart-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
